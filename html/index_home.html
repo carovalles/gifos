@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="/style/style_.css">
+    <link href="https://fonts.googleapis.com/css?family=Chakra+Petch&display=swap" rel="stylesheet">
+
+    <!-- Favicon -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <title>gifOS - Gifs Gifs Gifs!</title>
+
+</head>
+<body>
+    
+    <div class="top_bar">
+        <p>¡Bienvenidos/as a Guifos.com! ——————Donde los gifs están.////// Número de visitas: 12.765.803</p>
+    </div>
+    <div class="container">
+        <header>
+            <nav class="navbar">
+                <div class="navbar_container">
+                    <div class="navbar_logo">
+                        <a href="index_home.html"><img id="logo" src="" alt="imagen del logo gifos"></a>
+                    </div>
+                    <ul class="navbar_menu">
+                        <li><a href= index_crear_guifos.html id="button_crear_guifos" class="navbar_button">Crear gifOF</a></li>
+                        <li id= "theme_button" class="navbar_button"> Elegir Tema </li> 
+                        <input id="dropdown_icon" type="checkbox" value="check" name="menu"></input>
+                        <label for="dropdown_icon" class="dropdown_icon"> 
+                            <img id="dropdown" class= "dropdown" src="/assets/dropdown.svg" alt="">
+                        </label>
+                        
+                        <ul id="theme" class="theme">
+                            <li> <button id="light" class="theme_item">Sailor Day</button></li>
+                            <li ><button id="dark" class="theme_item">Sailor Night</button></li>
+                        </ul>   
+                        <li><a href="index_mis_guifos.html" class="navbar_gifos"> <u>M</u>is gifos</a></li>
+                    </ul>
+                </div>
+                
+            </nav>
+
+        </header>
+        <form id="search" class="search">
+            <p class="search_window">Buscar</p>
+            <div class="search_flex">
+                <input id="input_search" class="input_search" type="text" value="" autocomplete="off" placeholder="Busca gifs, hashtags, temas, busca lo que quieras…">
+                <button id="search_button" class="search_button"> <img id="lupa" src="/assets/Combined Shape.svg" alt=""> Buscar </button>
+            </div>
+        </form>
+        <div id="search_status">
+            <ul id="ul_sugerencia" class="search_recomendaciones">
+                
+            </ul>
+        </div>
+
+        <div id="id_sugerencia"> <p class="div_section"> Hoy te sugerimos</p> </div>
+
+        <div id="sugerencias" class="div_container_gif">
+        
+    </div>
+        
+        <div id="id_tendencia"><p class="div_section"> Tendencias </p></div>
+
+        <div id="tendencias" class="div_container_gif"></div>
+
+        <div id="search_div" class="div_container_gif"></div>
+
+
+
+<!-- JAVASCRIPT -->
+
+    <script src="/javascript/index.js"></script>
+    <script src="/javascript/buscador.js"></script> 
+    <script src="/javascript/sugerencias.js"></script> 
+    <script src="/javascript/theme.js"></script>      
+      
+</body>
+</html>
