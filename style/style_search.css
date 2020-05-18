@@ -1,0 +1,199 @@
+/* Ventana del Buscador */
+
+#search {
+    margin-top: 19px; 
+    width: 100%;
+    height: 99px;
+    padding: 1px;
+    box-sizing: border-box;
+}
+
+.search {
+    background: #E6E6E6;
+    box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+    width: 100%;
+}
+
+.search_button {
+    letter-spacing: 0;
+    margin-top: 7px;
+    line-height: 18px;
+    font-size: 16px;
+    width: 100%;
+    max-width: 102px;
+    height: 36px;
+    align-self: center;
+    background: #E6E6E6;
+    color: #B4B4B4;
+    border: 1px solid #808080;
+    box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF;
+}
+
+
+.input_search {
+    height: 48px;
+    font-size: 16px;
+    letter-spacing: 0;
+    display: inline-block;
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+    border: 1px solid #979797;
+    box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000;
+    color: #B4B4B4;
+    margin-left: 15px;
+    margin-right: 8px;
+    margin-top: 12px;
+    width: 100%;
+    padding: 13px 16px;
+}
+
+.search_flex {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 18px;
+    box-sizing: border-box;
+}
+
+.search_window {
+    padding: 3px;
+    height: 24px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    background-image: linear-gradient(270deg, #F7C9F3 0%, #4180F6 100%);
+    color: #FFFFFF;
+}
+
+#lupa {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    margin-right: 5px;
+    box-sizing: border-box;
+}
+
+
+/* Buscador Dark Theme */
+
+.dark .search_button {
+    background: #B4B4B4;
+    color: #8F8F8F;
+    border: 1px solid #808080;
+    box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF;
+}
+
+.dark .search {
+    background: #B4B4B4;
+    box-shadow: inset -2px -2px 0 0 #8F8F8F, inset 2px 2px 0 0 #FFFFFF;
+}
+
+.dark .search_window {
+    background-image: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%);
+    color: #FFFFFF;
+}
+
+.dark .lupa {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    margin-right: 5px;
+    box-sizing: border-box;
+}
+
+/* Search recomendaciones */
+
+#search_status {
+    display: none;
+    padding: 17px 17px 15px 16px;
+    height: 160px;
+    width: 100%;
+    box-sizing: border-box;
+    background: #E6E6E6;
+    box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+}
+
+.dark #search_status {
+    background: #B4B4B4;
+    box-shadow: inset -2px -2px 0 0 #8F8F8F, inset 2px 2px 0 0 #FFFFFF;
+}
+
+.search_recomendaciones {
+    margin-top: 0%;
+}
+
+.search_active {
+    background: #E6BBE2;
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+    color: #110038;
+    width: 102px;
+    height: 36px;
+    font-size: 16px;
+}
+
+.dark .search_active {
+    background: #EE3EFE;
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+    color: #FFFFFF;
+}
+
+.input_active {
+    color: #110038 ;
+}
+
+.item_search {
+    background: #F0F0F0;
+    border: 1px solid #808080;
+    box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF;
+    height: 34px;
+    font-size: 16px;
+    color: #110038;
+    padding: 7px 16px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    margin-right: 108px;
+}
+
+.dark .item_search {
+    background: #CCCCCC;
+    border: 1px solid #808080;
+    box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF;
+    width: 95%px;
+    height: 34px;
+    font-size: 16px;
+    color: #110038;
+    padding: 7px 16px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+/* DIV Search */
+
+/* Ventanas Gif */
+
+.div_container_gif_search {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 16px;
+    width: 100%;
+    height: 313px;
+    margin-bottom: 19px;    
+}
+
+.gif_image_search {
+    object-fit: cover;
+    width: 100%;
+    height: 280px;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.gif_container_search {
+    padding: 2px;
+    position: relative;
+    height: 280px;
+}

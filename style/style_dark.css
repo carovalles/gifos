@@ -1,0 +1,173 @@
+/* DARK THEME */
+
+.dark {
+    background-color: #110038;
+}
+
+/* Clases Nav- Bar Dark Theme*/
+
+.dark .top_bar {
+    background-image: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%);
+    box-shadow: 0 1px 0 0 #110038;
+    color: #FFFFFF;
+}
+
+.dark .navbar_button {
+    background: #EE3EFE;
+    color:#FFFFFF;
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+}
+
+.dark .navbar_logo {
+    height: 64px;
+    width: 102.6px;
+}
+
+.dark .navbar_gifos {
+    font-size: 16px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    line-height: 18px;
+}
+
+.dark .dropdown_icon {
+    background: #EE3EFE;
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+}
+
+.dark #dropdown {
+    width: 10px;
+    height: 6px;
+    margin-top: auto;
+    margin-bottom: auto;
+    filter: invert(100);
+}
+
+
+/* Dark Theme Menu */
+
+.dark .theme {
+    background: #B4B4B4;
+    box-shadow: inset -2px -2px 0 0 #8F8F8F, inset 2px 2px 0 0 #FFFFFF;
+}
+.dark .theme_item {
+    background: #CCCCCC;
+    border: 1px solid #808080;
+    box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF;
+}
+
+.dark .theme_item_selected {
+    color: #FFFFFF;
+    background:#8F8F8F;
+    box-shadow: inset -2px -2px 0 0 #8F8F8F, inset 2px 2px 0 0 #FFFFFF;
+}
+
+.button_night {
+    background: #2E32FB;
+    border: 1px solid rgba(51,53,143,0.20);
+    box-shadow: inset -1px -1px 0 0 #E6DCE4, inset 1px 1px 0 0 ;
+    height: 36px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+}
+
+/* Ventanas Gif */
+
+.dark .title_sugerencia {
+    background-image: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%);
+}
+
+.dark .title_hover {
+    background-image: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%);
+    color: #FFFFFF;
+    height: 24px;
+    width: 99%;
+    margin: 0px;
+    box-sizing: border-box;
+    font-size: 14px;
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+}
+
+.dark .container_gif_unit {
+    background: #B4B4B4;
+    box-shadow: inset -2px -2px 0 0 #5C5C5C, inset 2px 2px 0 0 #FFFFFF;
+}
+
+.dark .button_gif {
+    background: #2E32FB;
+    border: 1px solid #4C2F99;
+    box-shadow: inset -2px -2px 0 0 #2124B3, inset 2px 2px 0 0 #FFFFFF;
+    color: #FFFFFF;
+}
+
+.dark .close_gif {
+    position: absolute;
+    top: 7px;
+    right: 7px;
+    width: 16px;
+    height: 14px;
+}
+
+.dark .theme_item {
+    height: 36px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+    background: #CCCCCC;
+    border: 1px solid #808080;
+    box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF;
+}
+
+.dark .navbar_button:hover {
+    list-style: none;
+    box-sizing: border-box;
+    padding: 6px 26.5px;
+    height: 36px;
+    background: #CE36DB;
+    border: 1px dotted #110038;
+    box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+}
+
+.dark .dropdown_icon:hover {
+    padding: 2px;
+    background: #CE36DB;
+    border: 1px dotted #110038;
+    box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+}
+
+/* Ventana de Captura de Imagen */
+
+.dark .ventana_guifos {
+    background: #B4B4B4;
+    box-shadow: inset -2px -2px 0 0 #8F8F8F, inset 2px 2px 0 0 #FFFFFF;
+}
+
+.dark .captura_camara {
+    background: #B4B4B4;
+    box-shadow: inset -2px -2px 0 0 #8F8F8F, inset 2px 2px 0 0 #FFFFFF;
+}
+
+.dark .grey {
+    background: #CCCCCC;
+}
+
+.dark .pink {
+    background: #EE3EFE;
+}
+
+.dark .title_ventana {
+    background-image: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%);
+}
